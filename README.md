@@ -6,4 +6,3 @@ Each chapter have it's designated branch along with a step-by-step walkthrough b
 
 ## 1 First Steps
 * Blog Article : [Writing your own Operating System](https://medium.com/@erandachamith322/developing-a-custom-operating-system-b209e45d9c)
-* Git Branch : [setup_booting_os](https://github.com/chamitheranda/miniOS)
