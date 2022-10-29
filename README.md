@@ -14,4 +14,4 @@ Each chapter have it's designated branch along with a step-by-step walkthrough b
 
 ## 3 Intergrating outputs
 * Blog Article : [miniOS Intergrating outputs]( )
-* Git Branch : [Intergrating outputs]()
+* Git Branch : [Intergrate outputs](https://github.com/chamitheranda/miniOS/tree/integrate-output)
