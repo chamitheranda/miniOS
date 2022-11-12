@@ -13,5 +13,9 @@ Each chapter have it's designated branch along with a step-by-step walkthrough b
 * Git Branch : [implement_with_c](https://github.com/chamitheranda/miniOS/tree/implement_with_c)
 
 ## 3 Intergrating outputs
-* Blog Article : [miniOS Intergrating outputs]( )
-* Git Branch : [Intergrating outputs]()
+* Blog Article : [miniOS Intergrating outputs](https://medium.com/@erandachamith322/minios-integrating-outputs-285380674d0)
+* Git Branch : [Intergrating outputs](https://github.com/chamitheranda/miniOS/tree/integrate-output)
+
+## 4 Display hardware information
+* Blog Article : [Display Hardware informations - miniOS ( Extend of Josh OS ) ]. ()
+* Git Branch : [Display hardware information] ()
