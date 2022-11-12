@@ -18,4 +18,4 @@ Each chapter have it's designated branch along with a step-by-step walkthrough b
 
 ## 4 Display hardware information
 * Blog Article : [Display Hardware informations - miniOS ( Extend of Josh OS ) ]. ()
-* Git Branch : [Display hardware information](https://github.com/chamitheranda/miniOS.git)
+* Git Branch : [Display hardware information](https://github.com/chamitheranda/miniOS/tree/main/Display%20hardware%20details)
