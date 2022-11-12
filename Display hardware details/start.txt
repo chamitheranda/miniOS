@@ -1,0 +1,24 @@
+nasm Bootloader/boot.asm -o Bootloader/boot.bin -f bin 
+
+nasm kernel.asm -o kernel.bin -f bin 
+
+cd ..
+cd ..
+cd ..
+cd ..
+
+sudo mkdir floppy 
+
+cd ..
+cd  /Desktop/'Display hardware detail'
+
+mkfs.msdos -C floppy.img 1440 
+
+sudo mount -o loop floppy.img /media/floppy/ 
+
+sudo cp kernel.bin /media/floppy/ 
+
+sudo dd if=Bootloader/boot.bin of=/dev/loop42
+
+sudo umount /floppy/ 
+sudo rm -rf /floppy/

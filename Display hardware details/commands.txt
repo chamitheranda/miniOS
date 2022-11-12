@@ -1,0 +1,24 @@
+nasm boot.asm -o boot.bin -f bin
+
+nasm kernel.asm -o kernel.bin -f bin
+
+sudo mkdir floppy
+
+mkfs.msdos -C floppy.img 1440
+
+sudo mount -o loop floppy.img floppy/
+
+sudo cp kernel.bin floppy/
+
+sudo dd if=Bootloader/boot.bin of=/dev/loop42
+
+sudo umount floppy/ 
+
+sudo rm -rf floppy/
+
+dd status=noxfer conv=notrunc if=Bootloader/boot.bin of=floppy.img
+
+mkdir tmp-loop && mount -o loop -t vfat floppy.img tmp-loop && cp kernel.bin tmp-loop/
+
+qemu-system-i386 -fda ./floppy.img
+
