@@ -17,5 +17,5 @@ Each chapter have it's designated branch along with a step-by-step walkthrough b
 * Git Branch : [Intergrating outputs](https://github.com/chamitheranda/miniOS/tree/integrate-output)
 
 ## 4 Display hardware information
-* Blog Article : [Display Hardware informations - miniOS].(https://medium.com/@erandachamith322/display-hardware-informations-minios-extend-of-josh-os-2649221a3804)
+* Blog Article : [Display Hardware informations - miniOS](https://medium.com/@erandachamith322/display-hardware-informations-minios-extend-of-josh-os-2649221a3804)
 * Git Branch : [Display hardware information](https://github.com/chamitheranda/miniOS/tree/main/Display%20hardware%20details)
